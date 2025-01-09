@@ -10,6 +10,7 @@
   --color-h2: #E1E1E6;
   --color-span: hsl(240, 23%, 97%);
   --color-p: #C4C4CC;
+  --bg-color-fig: #202024;
   --color-bg: #1E1E1E;
 
   --font-family: 'Mulish', sans-serif;
@@ -21,4 +22,12 @@
 
 body {
   background-color: var(--color-bg);
+}
+
+img{
+  max-width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  max-width: 366px;
+  max-height: 177px;
 }
