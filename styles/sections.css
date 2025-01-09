@@ -7,24 +7,35 @@
   margin-inline: auto;
 }
 
+.card2 {
+  display: flex;
+  gap: 60px;
+  width: 1218px;
+  height: 448px;
+  margin-block: 43px;
+  margin-inline: auto;
+}
+
+
 figure {
   border: 0px solid var(--bg-color-fig);
   border-radius: 8px;
   margin-inline: auto;
   background-color: var(--bg-color-fig);
-
   figcapition {
-    padding-bottom: 2rem;
+    padding-inline: 32px;
   }
 
   h2 {
-    padding-block: 10px;
-    padding-left: 10px;
+    padding-top: 15px;
+    padding-inline: 20px;
     color: var(--color-h2);
   }
 
   p {
-    padding-left: 10px;
+    padding-inline: 20px;
+    padding-top: 24px;
+
     color: var(--color-p);
   }
 
