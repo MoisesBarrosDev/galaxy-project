@@ -1,0 +1,19 @@
+header {
+  display: grid;
+  gap: 8px;
+  margin-inline: auto;
+  margin-top: 73px;
+  max-width: 1280px;
+}
+
+
+h1 {
+  padding-left: 10px;
+  color: var(--color-h1);
+}
+
+span {
+  padding-left: 12px;
+  padding-bottom: 4px;
+  color: var(--color-span);
+}
