@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --color-h1: #02799D;
+  --color-h2: #E1E1E6;
+  --color-span: hsl(240, 23%, 97%);
+  --color-p: #C4C4CC;
+  --color-bg: #1E1E1E;
+
+  --font-family: 'Mulish', sans-serif;
+  --font-h1: 900 58.29px/0% var(--font-family);
+  --font-h2: 900 35.3px/0% var(--font-family);
+  --font-p: 600 19.38px/0% var(--font-family);
+  --font-span: 600 32px/0% var(--font-family);
+}
+
+body {
+  background-color: var(--color-bg);
+}
