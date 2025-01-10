@@ -1,4 +1,4 @@
-.card1 {
+.card {
   display: flex;
   gap: 60px;
   width: 1218px;
@@ -6,36 +6,36 @@
   margin-block: 43px;
   margin-inline: auto;
 }
-
-.card2 {
-  display: flex;
-  gap: 60px;
-  width: 1218px;
-  height: 448px;
-  margin-block: 43px;
-  margin-inline: auto;
-}
-
 
 figure {
-  border: 0px solid var(--bg-color-fig);
+  border: 1px solid #323238;
   border-radius: 8px;
   margin-inline: auto;
-  background-color: var(--bg-color-fig);
-  figcapition {
-    padding-inline: 32px;
+  background-color: var(--bg-color-fig);  
+
+  figcaption {
+    padding-inline: 10px;
+    max-height: 248px;
+    overflow: hidden;
+  }
+
+  img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
   }
 
   h2 {
     padding-top: 15px;
     padding-inline: 20px;
     color: var(--color-h2);
+    font: var(--font-h2);
+    text-wrap: nowrap;
   }
 
   p {
     padding-inline: 20px;
     padding-top: 24px;
-
+    font: var(--font-p);
     color: var(--color-p);
   }
 

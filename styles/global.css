@@ -14,10 +14,10 @@
   --color-bg: #1E1E1E;
 
   --font-family: 'Mulish', sans-serif;
-  --font-h1: 900 58.29px/0% var(--font-family);
-  --font-h2: 900 35.3px/0% var(--font-family);
-  --font-p: 600 19.38px/0% var(--font-family);
-  --font-span: 600 32px/0% var(--font-family);
+  --font-h1: 900 58.29px/120% var(--font-family);
+  --font-h2: 900 35.3px/120% var(--font-family);
+  --font-p: 600 19.38px/120% var(--font-family);
+  --font-span: 600 32px/120% var(--font-family);
 }
 
 body {

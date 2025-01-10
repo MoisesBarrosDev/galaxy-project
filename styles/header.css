@@ -11,10 +11,12 @@ header {
 h1 {
   padding-left: 10px;
   color: var(--color-h1);
+  font: var(--font-h1);
 }
 
 span {
   padding-left: 12px;
   padding-bottom: 4px;
   color: var(--color-span);
+  font: var(--font-span);
 }
